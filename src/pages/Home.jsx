@@ -1,5 +1,6 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
+import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import {
   ChefHat,
@@ -71,6 +72,51 @@ const Home = () => {
 
   return (
     <div className="relative min-h-screen">
+      <Helmet>
+        <link rel="canonical" href="https://rrnb.vercel.app/" />
+        <title>rnb</title>
+        <meta
+          name="description"
+          content="Authentic homemade Nigerian meals – jollof rice, egusi soup, party trays, home delivery & event catering in Lagos. Fresh, tasty, and made with love."
+        />
+        <meta
+          name="keywords"
+          content="rnb, rmb, homemade Nigerian food Lagos, Nigerian catering Lagos, jollof rice delivery, party trays Lagos, home cooked meals Lagos"
+        />
+        <meta
+          property="og:title"
+          content="Homemade Nigerian Food & Catering in Lagos"
+        />
+        <meta
+          property="og:description"
+          content="Fresh, authentic Nigerian dishes for events, parties, and everyday comfort. Order now!"
+        />
+        <meta
+          property="og:image"
+          content="https://x.com/mustaphAdegbite/photo"
+        />{" "}
+        {/* Add a nice 1200x630 image */}
+        <meta property="og:url" content="https://rrnb.vercel.app/" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            name: "Delicious Home Cooking",
+            image: "https://rrnb.vercel.app/",
+            telephone: "+2349164880693",
+            address: {
+              "@type": "PostalAddress",
+              addressLocality: "Lagos",
+              addressCountry: "NG",
+            },
+            url: "https://rrnb.vercel.app/",
+            priceRange: "$$",
+            openingHours: "Mo-Fr 08:00-20:00, Sa 09:00-18:00",
+            servesCuisine: "Nigerian",
+          })}
+        </script>
+      </Helmet>
       {/* Hero Section */}
       <motion.section
         ref={heroRef}

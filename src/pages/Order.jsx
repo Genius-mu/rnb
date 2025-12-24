@@ -13,6 +13,7 @@ import {
   Package,
   Clock,
 } from "lucide-react";
+import { Helmet } from "react-helmet";
 
 const Order = () => {
   const [formData, setFormData] = useState({
@@ -92,6 +93,14 @@ const Order = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 pt-24 pb-20">
+      <Helmet>
+        <title>rnb</title>
+        <link rel="canonical" href="https://rrnb.vercel.app/order" />
+        <meta
+          name="description"
+          content="Explore our full menu of authentic Nigerian dishes: jollof rice, egusi soup, efo riro, puff puff, plantain chips, and custom party trays. Freshly made daily."
+        />
+      </Helmet>
       <div className="max-w-4xl mx-auto px-6 lg:px-8">
         {/* Header */}
         <motion.div

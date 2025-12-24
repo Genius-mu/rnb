@@ -13,6 +13,7 @@ import {
   Soup,
   Cake,
 } from "lucide-react";
+import { Helmet } from "react-helmet";
 
 const About = () => {
   const values = [
@@ -90,6 +91,14 @@ const About = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      <Helmet>
+        <link rel="canonical" href="https://rrnb.vercel.app/about" />
+        <title>rnb</title>
+        <meta
+          name="description"
+          content="Explore our full menu of authentic Nigerian dishes: jollof rice, egusi soup, efo riro, puff puff, plantain chips, and custom party trays. Freshly made daily."
+        />
+      </Helmet>
       {/* Hero Section */}
       <motion.section
         initial="hidden"

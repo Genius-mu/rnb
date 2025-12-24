@@ -12,6 +12,7 @@ import {
   Twitter,
   CheckCircle,
 } from "lucide-react";
+import { Helmet } from "react-helmet";
 
 const Contact = () => {
   const contactMethods = [
@@ -77,6 +78,14 @@ const Contact = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <Helmet>
+        <title>rnb</title>
+        <link rel="canonical" href="https://rrnb.vercel.app/contact" />
+        <meta
+          name="description"
+          content="Explore our full menu of authentic Nigerian dishes: jollof rice, egusi soup, efo riro, puff puff, plantain chips, and custom party trays. Freshly made daily."
+        />
+      </Helmet>
       {/* Hero Banner */}
       <motion.section
         initial="hidden"

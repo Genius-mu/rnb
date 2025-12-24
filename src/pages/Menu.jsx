@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { UtensilsCrossed, Soup, Flame, Cake, ArrowRight } from "lucide-react";
+import { Helmet } from "react-helmet";
 
 const Menu = () => {
   const menuCategories = [
@@ -109,6 +110,14 @@ const Menu = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      <Helmet>
+        <title>rnb</title>
+        <link rel="canonical" href="https://rrnb.vercel.app/menu" />
+        <meta
+          name="description"
+          content="Explore our full menu of authentic Nigerian dishes: jollof rice, egusi soup, efo riro, puff puff, plantain chips, and custom party trays. Freshly made daily."
+        />
+      </Helmet>
       {/* Hero */}
       <section className="relative h-fit bg-[url(/images/img1.webp)] bg-[rgba(0,0,0,.5)] bg-blend-darken bg-cover bg-center text-white flex items-center justify-center overflow-hidden py-50">
         <div className="absolute inset-0 bg-black/30" />
