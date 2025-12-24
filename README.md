@@ -1,7 +1,5 @@
 # RumLah - Authentic Nigerian Cuisine Catering & Delivery
 
-![RumLah Logo](https://via.placeholder.com/150x50?text=RumLah) <!-- Replace with actual logo -->
-
 A modern, responsive web application for RumLah, your go-to service for authentic homemade Nigerian cuisine. From jollof rice to rich soups and party trays – cooked with love, delivered with care.
 
 ## 🌟 Features
@@ -31,7 +29,7 @@ A modern, responsive web application for RumLah, your go-to service for authenti
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/your-username/rumlah.git
+   git clone https://github.com/Genius-mu/rnb.git
    cd rumlah
    ```
 
@@ -136,10 +134,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **RumLah - Delicious Home Cooking**
 
-- Website: [rumlah.com](https://rumlah.com) <!-- Replace with actual URL -->
-- Email: info@rumlah.com
-- Phone: +234 XXX XXX XXXX
-- WhatsApp: [Chat with us](https://wa.me/1234567890)
+- Website: [rumlah.com](https://rrnb.vercel.app/)
+- Email: rumlahashim@gmail.com
+- Phone: +23408028838446
+- WhatsApp: [Chat with us](https://wa.me/23408028838446)
 
 **Location**: Serving Lagos & surrounding areas | Event catering across Nigeria
 
