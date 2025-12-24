@@ -9,6 +9,7 @@ import {
   Instagram,
   Facebook,
   ArrowRight,
+  Twitter,
   CheckCircle,
 } from "lucide-react";
 
@@ -17,8 +18,8 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Call Us",
-      detail: "+234 123 456 7890",
-      action: "tel:+2341234567890",
+      detail: "+234 802 883 8446",
+      action: "tel:+2348028838446",
       color: "text-blue-600",
     },
     {
@@ -26,14 +27,14 @@ const Contact = () => {
       title: "WhatsApp",
       detail: "Chat with us instantly",
       action:
-        "https://wa.me/2341234567890?text=Hello%21%20I'd%20like%20to%20place%20an%20order%20or%20ask%20a%20question.",
+        "https://wa.me/2348028838446?text=Hello%21%20I'd%20like%20to%20place%20an%20order%20or%20ask%20a%20question.",
       color: "text-green-600",
     },
     {
       icon: Mail,
       title: "Email",
-      detail: "info@delicioushomecooking.com",
-      action: "mailto:info@delicioushomecooking.com",
+      detail: "rumlahashim@gmail.com",
+      action: "mailto:rumlahashim@gmail.com",
       color: "text-red-600",
     },
     {
@@ -52,7 +53,7 @@ const Contact = () => {
       url: "https://instagram.com/delicioushomecooking",
     },
     {
-      icon: Facebook,
+      icon: Twitter,
       name: "Facebook",
       url: "https://facebook.com/delicioushomecooking",
     },
@@ -81,7 +82,7 @@ const Contact = () => {
         initial="hidden"
         animate="visible"
         variants={staggerContainer}
-        className="relative h-80 bg-gradient-to-r from-orange-600 to-orange-800 text-white flex items-center justify-center overflow-hidden"
+        className="relative h-fit bg-[url(/images/img1.webp)] bg-[rgba(0,0,0,.5)] bg-blend-darken bg-cover bg-center text-white flex items-center justify-center overflow-hidden py-50"
       >
         <div className="absolute inset-0 bg-black/30" />
         <div className="relative z-10 text-center px-6">
@@ -256,7 +257,7 @@ const Contact = () => {
               Place Order <ArrowRight className="w-5 h-5" />
             </Link>
             <a
-              href="https://wa.me/2341234567890?text=Hello!%20I%20have%20a%20question..."
+              href="https://wa.me/23408028838446?text=Hello!%20I%20have%20a%20question..."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white font-semibold px-10 py-4 rounded-full shadow-lg transition"

@@ -12,24 +12,21 @@ const Menu = () => {
           name: "Jollof Rice",
           desc: "Spicy tomato rice served with chicken, beef or fish",
           price: "₦4,500 – ₦7,500",
-          image:
-            "https://images.unsplash.com/photo-1563245372-749d5ddb3f3f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          image: "/images/img5.webp",
           badge: { text: "Best Seller", color: "bg-orange-500" },
         },
         {
           name: "Fried Rice",
           desc: "Vegetable-loaded with chicken or beef",
           price: "₦4,000 – ₦6,500",
-          image:
-            "https://images.unsplash.com/photo-1603134253122-5e4506d8b5f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          image: "/images/img6.webp",
           badge: { text: "Popular", color: "bg-green-500" },
         },
         {
           name: "White Rice & Stew",
           desc: "Steamed rice with rich tomato stew & proteins",
           price: "₦3,500 – ₦6,000",
-          image:
-            "https://images.unsplash.com/photo-1606857521015-7f9fcf423740?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          image: "/images/img7.webp",
         },
       ],
     },
@@ -41,24 +38,21 @@ const Menu = () => {
           name: "Egusi Soup",
           desc: "Rich melon seed soup with assorted meats & fish",
           price: "₦5,000 – ₦8,500",
-          image:
-            "https://images.unsplash.com/photo-1626645738538-2b7b3c2f8a6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          image: "/images/img7.webp",
           badge: { text: "Signature", color: "bg-purple-500" },
         },
         {
           name: "Efo Riro",
           desc: "Hearty spinach stew with meat & fish",
           price: "₦4,500 – ₦7,000",
-          image:
-            "https://images.unsplash.com/photo-1606857521015-7f9fcf423740?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          image: "/images/img2.webp",
           badge: { text: "Veggie Option", color: "bg-teal-500" },
         },
         {
           name: "Banga Soup",
           desc: "Spicy palm nut soup with catfish & meats",
           price: "₦5,500 – ₦9,000",
-          image:
-            "https://images.unsplash.com/photo-1627308594173-4c3a5f6e6e6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          image: "/images/img8.webp",
         },
       ],
     },
@@ -70,22 +64,19 @@ const Menu = () => {
           name: "Puff Puff (Dozen)",
           desc: "Sweet, fluffy deep-fried dough balls",
           price: "₦2,000",
-          image:
-            "https://images.unsplash.com/photo-1558327767-7d4d7e0d2c7f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          image: "/images/img3.webp",
         },
         {
           name: "Plantain Chips",
           desc: "Crispy seasoned fried plantain slices",
           price: "₦1,500",
-          image:
-            "https://images.unsplash.com/photo-1606857521015-7f9fcf423740?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          image: "/images/img4.webp",
         },
         {
           name: "Moi Moi",
           desc: "Steamed bean pudding with egg & fish",
           price: "₦1,200 – ₦2,000",
-          image:
-            "https://images.unsplash.com/photo-1606857521015-7f9fcf423740?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          image: "/images/img9.webp",
         },
       ],
     },
@@ -97,23 +88,20 @@ const Menu = () => {
           name: "Small Tray (20–30 pax)",
           desc: "Jollof rice + protein + sides",
           price: "₦65,000 – ₦95,000",
-          image:
-            "https://images.unsplash.com/photo-1555244164-803834f70033?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          image: "/images/img4.webp",
           badge: { text: "Event Favorite", color: "bg-amber-500" },
         },
         {
           name: "Large Tray (50+ pax)",
           desc: "Full menu with variety of proteins",
           price: "₦130,000+",
-          image:
-            "https://images.unsplash.com/photo-1555244164-803834f70033?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          image: "/images/img5.webp",
         },
         {
           name: "Custom Tray",
           desc: "Tailored to your event needs",
           price: "Price on request",
-          image:
-            "https://images.unsplash.com/photo-1603134253122-5e4506d8b5f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          image: "/images/img8.webp",
         },
       ],
     },
@@ -122,7 +110,7 @@ const Menu = () => {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero */}
-      <section className="relative h-80 bg-gradient-to-r from-orange-600 to-orange-800 text-white flex items-center justify-center">
+      <section className="relative h-fit bg-[url(/images/img1.webp)] bg-[rgba(0,0,0,.5)] bg-blend-darken bg-cover bg-center text-white flex items-center justify-center overflow-hidden py-50">
         <div className="absolute inset-0 bg-black/30" />
         <div className="relative z-10 text-center px-6">
           <h1 className="text-4xl md:text-5xl font-bold mb-3">Our Menu</h1>

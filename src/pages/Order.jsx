@@ -292,7 +292,7 @@ const Order = () => {
                   Prefer to order quickly?
                 </h4>
                 <a
-                  href="https://wa.me/2341234567890?text=Hello!%20I'd%20like%20to%20place%20an%20order..."
+                  href="https://wa.me/2349164880693?text=Hello!%20I'd%20like%20to%20place%20an%20order..."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-3 bg-green-600 hover:bg-green-700 text-white py-4 rounded-xl font-medium transition"

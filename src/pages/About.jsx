@@ -95,7 +95,7 @@ const About = () => {
         initial="hidden"
         animate="visible"
         variants={staggerContainer}
-        className="relative h-96 bg-gradient-to-r from-orange-600 to-orange-800 text-white flex items-center justify-center overflow-hidden"
+        className="relative h-fit bg-[url(/images/img1.webp)] bg-[rgba(0,0,0,.5)] bg-blend-darken bg-cover bg-center text-white flex items-center justify-center overflow-hidden py-50"
       >
         <motion.div
           className="absolute inset-0 bg-black/30"
@@ -130,7 +130,7 @@ const About = () => {
         >
           <motion.div variants={fadeInUp} whileHover={scaleOnHover}>
             <img
-              src="https://images.unsplash.com/photo-1556911220-b0b27e1f7a2e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+              src="/images/img10.webp"
               alt="Chef in kitchen"
               className="w-full h-96 object-cover rounded-2xl shadow-lg"
             />

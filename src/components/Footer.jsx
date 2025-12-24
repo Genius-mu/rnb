@@ -7,7 +7,7 @@ import {
   Mail,
   MapPin,
   Instagram,
-  Facebook,
+  Twitter,
   ChefHat,
   ArrowRight,
 } from "lucide-react";
@@ -20,8 +20,8 @@ const Footer = () => {
       url: "https://instagram.com/delicioushomecooking",
     },
     {
-      icon: Facebook,
-      name: "Facebook",
+      icon: Twitter,
+      name: "X",
       url: "https://facebook.com/delicioushomecooking",
     },
   ];
@@ -35,16 +35,16 @@ const Footer = () => {
   ];
 
   const contactInfo = [
-    { icon: Phone, text: "+234 123 456 7890", link: "tel:+2341234567890" },
+    { icon: Phone, text: "+234 802 883 8446", link: "tel:+2348028838446" },
     {
       icon: MessageCircle,
       text: "WhatsApp",
-      link: "https://wa.me/2341234567890",
+      link: "https://wa.me/23408028838446",
     },
     {
       icon: Mail,
-      text: "info@delicioushomecooking.com",
-      link: "mailto:info@delicioushomecooking.com",
+      text: "rumlahashim@gmail.com",
+      link: "mailto:rumlahashim@gmail.com",
     },
     { icon: MapPin, text: "Serving Lagos & Surrounding Areas" },
   ];
@@ -189,10 +189,7 @@ const Footer = () => {
           viewport={{ once: true }}
           transition={{ delay: 0.5, duration: 0.8 }}
         >
-          <p>
-            © {new Date().getFullYear()} Delicious Home Cooking. All rights
-            reserved.
-          </p>
+          <p>© {new Date().getFullYear()} RNB. All rights reserved.</p>
           <p className="mt-2">Made with love in Lagos, Nigeria</p>
         </motion.div>
       </div>

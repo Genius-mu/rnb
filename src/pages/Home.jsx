@@ -145,19 +145,19 @@ const Home = () => {
                 icon: Cake,
                 title: "Event Catering",
                 desc: "Weddings, birthdays, corporate events & parties",
-                img: "https://images.unsplash.com/photo-1555244164-803834f70033?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+                img: "/images/img2.webp",
               },
               {
                 icon: Truck,
                 title: "Home Delivery",
                 desc: "Fresh meals delivered hot to your door in Lagos",
-                img: "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+                img: "/images/img4.webp",
               },
               {
                 icon: Heart,
                 title: "Custom & Special Orders",
                 desc: "Tailored menus for dietary needs & special requests",
-                img: "https://images.unsplash.com/photo-1540189545-6a6b2a7c0a6a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+                img: "/images/img3.webp",
               },
             ].map((feature, idx) => (
               <motion.div
